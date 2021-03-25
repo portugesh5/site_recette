@@ -1,0 +1,123 @@
+*{overflow: auto;}
+   
+   
+   body{background-color: #8ba1bb;
+                font-family: arial;
+
+            }
+            p.catégorie{background-color: black;
+                color: white;
+                display: inline-block;
+                margin-top: -15px;
+                margin-bottom: 0;
+                text-align: center;
+                padding: 8px 18px;
+                font-weight: bold;
+                font-size: 16px;
+                
+
+            }
+
+        
+            div.contenu{
+                background-color: white;
+                margin: 60px 10% 80px 10%; 
+                padding: 0px 30px 30px 30px;
+                min-width: 350px;
+                box-shadow:0px 0px 10px 8px  gray;
+                overflow: visible;
+            }
+            h1{text-align: center;
+            margin-bottom: 12px;
+        margin-top: 10px;}
+            p.description{
+                text-align: center;
+                max-width: 400px;
+                display: inline-block;
+                font-size: 14px;
+
+            }
+            .centre{
+                text-align: center;
+                width: 100%;
+            }
+            div.catégorie{
+                margin-bottom: 0px;
+                margin-top: 0px;
+                overflow: visible;
+            }
+            div.séparateur{
+                background-color: black;
+                width: 100px;
+                height: 1px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            div.img{ position : relative}
+            .tableau{position: absolute;
+                 bottom: 0;
+                 width: 100%;
+                 color:white;
+                 background-color: #6c829dc0;
+                 height: 80px;}
+            .tableau td{
+                font-size: 14px;
+                text-align: center;
+                vertical-align: top;
+            }
+            .tableau th{
+                font-size: 16px;
+                vertical-align: bottom;
+                padding-bottom: 8px;
+            }
+            img.img{ display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+background-color: gray;}
+div.colone{
+    width: 45%;
+    margin-top: 20px;
+
+}
+div.colone h2{text-align: center;
+text-transform: uppercase;
+font-size: 15px ;
+border-bottom: 5px solid #6c829d ;
+padding-bottom: 5px ;
+} 
+div.colone1{
+display: inline-block;
+margin-right: 10%;} 
+ div.colone2{float:right;}  
+div.ingre p{border: 1px solid lightgray;
+font-size: 14px;text-align: center;
+padding: 8px 0;margin-top: 
+4px;margin-bottom: 0;}
+            
+table.prepa p.numero  {
+    background-color:#6c829d ;
+    color:white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin : 0
+
+} 
+  table.prepa td{
+      vertical-align: top;
+  }
+  table.prepa td.etap{
+      font-size: 14px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+
+  }
+  table.prepa tr{
+      height: 40px;
+  }
